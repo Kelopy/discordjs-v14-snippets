@@ -1,0 +1,23 @@
+{
+    "new ButtonBuilder()": {
+        "prefix": "!buttons",
+        "body": [
+            "const row = new ActionRowBuilder().addComponents(",
+            "new ButtonBuilder()",
+            ".setCustomId('yes-button')",
+            ".setLabel('Yes')",
+            ".setStyle(ButtonStyle.Primary),",
+            "new ButtonBuilder()",
+            ".setCustomId('no-button')",
+            ".setLabel('No')",
+            ".setStyle(ButtonStyle.Danger),",
+            "new ButtonBuilder()",
+            ".setLabel('Google')",
+            ".setURL('https://google.com/')",
+            ".setStyle(ButtonStyle.Link)",
+            ");",
+            "//make sure to import `ActionRowBuilder` & `ButtonBuilder` from discord.js :D"
+        ],
+        "description": "ButtonBuilder Template"
+    }
+}

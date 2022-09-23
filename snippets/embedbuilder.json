@@ -1,0 +1,18 @@
+{
+    "new EmbedBuilder()": {
+        "prefix": "!embed",
+        "body": [
+            "const embed = new EmbedBuilder()",
+            ".setDescription('DiscordJS V14 Snippets')",
+            ".setColor('DarkButNotBlack')",
+            ".addFields(",
+            "{ name: 'Package', value: 'DiscordJS' },",
+            "{ name: 'Version', value: 'V14' }",
+            ")",
+            ".setFooter({ text: 'hi there ;)' })",
+            ".setTimestamp();",
+            "//make sure to import `EmbedBuilder` from discord.js :D"
+        ],
+        "description": "EmbedBuilder Template"
+    }
+}
